@@ -25,4 +25,8 @@ A Rick and Morty API retorna 20 personagens por página. A aplicação usa pagin
 ## Estrutura do projeto
 Veja a árvore `src/` com `components`, `pages`, `services` e `styles`.
 
+## Vercel link
+https://meu-app-red.vercel.app
+
+
 
