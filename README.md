@@ -1,16 +1,28 @@
-# React + Vite
+# Rick & Morty App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação desenvolvida em React + Vite que consome a Rick and Morty API. Mostra listagem paginada de personagens, busca dinâmica, filtros e páginas de detalhes.
 
-Currently, two official plugins are available:
+## Funcionalidades
+- Listagem com paginação (botões Anterior / Próxima)
+- Busca em tempo real por nome
+- Filtros combináveis por status e gênero
+- Página de detalhes por personagem (`/details/:id`)
+- Feedback ao usuário: carregamento e tratamento de erros
+- Roteamento com `react-router-dom`
+- Estilização com CSS + componentes Material UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Como rodar localmente
 
-## React Compiler
+npm install
+npm run dev
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Abra a URL mostrada no terminal.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Observações sobre a API
+A Rick and Morty API retorna 20 personagens por página. A aplicação usa paginação para navegar por todas as páginas.
+
+## Estrutura do projeto
+Veja a árvore `src/` com `components`, `pages`, `services` e `styles`.
+
+
